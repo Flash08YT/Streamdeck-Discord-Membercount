@@ -20,8 +20,7 @@ $buildConfiguration = "Debug"
 $targetFrameworkName = $projectXML.Project.PropertyGroup.TargetFramework;
 
 # Set local path references
-# $streamDeckExePath = "$($ENV:ProgramFiles)\Elgato\StreamDeck\StreamDeck.exe"
-$streamDeckExePath = "F:\Programme\ELGATO\StreamDeck\StreamDeck.exe"
+$streamDeckExePath = "$($ENV:ProgramFiles)\Elgato\StreamDeck\StreamDeck.exe"
 
 # For now, this PS script will only be run on Windows.
 $bindir = "$basePath\bin\Debug\$targetFrameworkName\win-x64"
