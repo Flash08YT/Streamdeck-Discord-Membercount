@@ -20,8 +20,6 @@
   "Disabled": false,
   "Author": "Flash08",
   "CodePath": "DcMemberCount.exe",
-  "CodePathWin": "DcMemberCount.exe",
-  "CodePathMac": "DcMemberCount",
   "PropertyInspectorPath": "property_inspector/property_inspector.html",
   "Description": "Shows the amount of online members on a Discord-server",
   "Name": "Membercount",
