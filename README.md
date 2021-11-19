@@ -11,4 +11,6 @@ Note: You have to enable serverwidget first in your server settings
 
 Launch path: The program, which should be launched, when you click the button. For Discord link to your Update.exe
 
+If you setup everything correct, within a few seconds the count should display and is updated every minute
+
 Please do not set a title, as its created by the plugin!
