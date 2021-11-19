@@ -1,0 +1,44 @@
+{
+  "Actions": [
+    {
+      "Icon": "images/actionIcon",
+      "Name": "Discord Membercount",
+      "States": [
+        {
+          "Image": "images/actionDefaultImage",
+          "TitleAlignment": "bottom",
+          "FontSize": "16"
+        }
+      ],
+      "SupportedInMultiActions": false,
+      "Tooltip": "Discord Membercount",
+      "UUID": "de.flash.streamdeck.disordcounter"
+    }
+  ],
+  "Category": "Discord",
+  "CategoryIcon": "images/category/categoryIcon",
+  "Disabled": false,
+  "Author": "Flash08",
+  "CodePath": "DcMemberCount.exe",
+  "CodePathWin": "DcMemberCount.exe",
+  "CodePathMac": "DcMemberCount",
+  "PropertyInspectorPath": "property_inspector/property_inspector.html",
+  "Description": "Shows the amount of online members on a Discord-server",
+  "Name": "Membercount",
+  "Icon": "images/pluginIcon",
+  "Version": "1.0",
+  "SDKVersion": 2,
+  "Software": {
+    "MinimumVersion": "4.1"
+  },
+  "OS": [
+    {
+      "Platform": "mac",
+      "MinimumVersion": "10.11"
+    },
+    {
+      "Platform": "windows",
+      "MinimumVersion": "10"
+    }
+  ]
+}

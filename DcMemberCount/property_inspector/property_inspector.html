@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>Discord Membercount properties</title>
+	<link rel="stylesheet" href="css/sdpi.css">
+	<link rel="stylesheet" href="css/property-inspector.css">
+</head>
+<body>
+	<div class="sdpi-wrapper">
+		<!-- for more examples of the types of fields supported in property inspector visit:
+			Elgato Github PiSamples -> https://github.com/elgatosf/streamdeck-pisamples
+			and
+			Elgato SDK Documentation -> https://developer.elgato.com/documentation/stream-deck/sdk/property-inspector/
+		-->
+
+		<div class="sdpi-item" id="widget_url">
+			<div class="sdpi-item-label">Server-ID</div>
+			<input id="WidgetUrl" class="sdpi-item-value" type="text" inputmode="string" pattern="*" placeholder="Server-ID" onchange="setSettings(event.target.value, 'WidgetUrl')" />
+		</div>
+
+		<div class="sdpi-item" id="launch_path">
+			<div class="sdpi-item-label">Launch path</div>
+			<input id="Launchpath" class="sdpi-item-value" type="text" inputmode="string" pattern="*" placeholder="Program to start on click" onchange="setSettings(event.target.value, 'Launchpath')" />
+		</div>
+
+	</div>
+	<script src="js/property-inspector.js"></script>
+</body>
+</html>
