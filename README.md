@@ -1,7 +1,7 @@
 # Streamdeck-Discord-Membercount
 A Streamdeck plugin to display the amount of online members on a Discord-server written in C#
 
-Note: To save your settings, you have to press enter
+Note: To save your settings, you have to press enter while you're in a field
 I didn't figure out yet how to automatically save them, if you know how to please let me know
 
 ![Settings](https://user-images.githubusercontent.com/34920726/142627755-ab8c8cfa-7224-4a4f-9c89-86771a84fa93.png)
